@@ -12,16 +12,20 @@ const Intro = () => {
         </h1>
         <p>Memulai karir sebagai seorang programer di tahun 2022.</p>
         <div className="flex gap-4">
-          <div className="h-10 w-28 rounded-md bg p-[2px]">
-            <div className="flex h-full w-full items-center justify-center rounded-md bg-white">
-              <h1 className="pr font-semibold text-transparent bg-clip-text">
-                Portfolio
-              </h1>
+          <a href="/#portfolio">
+            <div className="h-10 w-28 rounded-md bg p-[2px]">
+              <div className="flex h-full w-full items-center justify-center rounded-md bg-white">
+                <h1 className="pr font-semibold text-transparent bg-clip-text">
+                  Portfolio
+                </h1>
+              </div>
             </div>
-          </div>
-          <div className="h-10 w-28 flex items-center justify-center border rounded-md bg text-white font-semibold">
-            Let's Talk !
-          </div>
+          </a>
+          <a href="#contact">
+            <div className="h-10 w-28 flex items-center justify-center border rounded-md bg text-white font-semibold">
+              Let's Talk !
+            </div>
+          </a>
         </div>
       </div>
       <ProfileImage />
