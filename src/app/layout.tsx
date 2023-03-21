@@ -1,3 +1,4 @@
+import Script from "next/script";
 import "./globals.css";
 
 export const metadata = {
@@ -13,7 +14,24 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className="bg">{children}</body>
+      <body className="bg">
+        <div className="ga">
+          <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-W11PKEH2P0"
+            strategy="afterInteractive"
+          />
+          <Script id="google-analytics" strategy="afterInteractive">
+            {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-W11PKEH2P0');
+        `}
+          </Script>
+        </div>
+        {children}
+      </body>
     </html>
   );
 }
