@@ -60,7 +60,7 @@ function Carousel() {
 const Portfolio = () => {
   return (
     <section
-      id="skill"
+      id="portfolio"
       className="p-4 sm:p-6 lg:p-8 text-[#48438e] text-shadow-sm"
     >
       <div className="translate-y-24 space-y-8">
