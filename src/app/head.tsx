@@ -7,20 +7,20 @@ export default function Head() {
       <link rel="icon" href="/favicon.ico" />
       <meta
         name="description"
-        content="fajrul.my.id is a front-end web developer portfolio showcasing my personal projects and blog. If you have web related problems to solve then let&#x27;s work together!"
+        content="fajrul.id is a front-end web developer portfolio showcasing my personal projects and blog. If you have web related problems to solve then let&#x27;s work together!"
       />
       <meta
         name="keyword"
-        content="fajrulid, fajrulmyid, fajrulamin, fajrul, my, id, jvalley, indonesia, portfolio, javascript, developer ,fajrul,fajrulislam"
+        content="muhammad fajrul amin,fajrul id,fajrulid, fajrulmyid, fajrulamin, fajrul, my, id, jvalley, indonesia, portfolio, javascript, developer ,fajrul,fajrul islam"
       />
       <meta property="og:locale" content="id_ID" />
       <meta
         property="og:title"
-        content="Muhammad Fajrul Amin | Front End Web Developer"
+        content="Muhammad Fajrul Amin | ReactJs Web Developer"
       />
       <meta
         property="og:description"
-        content="Muhammad fajrul amin. Web Developer portfolio showcasing my personal projects and blog. If you have web related problems to solve then let&#x27;s work together!"
+        content="Muhammad fajrul amin. ReactJs Web Developer portfolio showcasing my personal projects and blog. If you have web related problems to solve then let&#x27;s work together!"
       />
       <meta property="og:image" content="https://fajrul.my.id/home-og.png" />
       <meta property="og:image:width" content="1200" />
