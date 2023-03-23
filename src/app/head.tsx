@@ -54,30 +54,30 @@ export default function Head() {
         property="twitter:image"
         content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
       />
-      <link rel="manifest" href="./assets/img/favicon/site.webmanifest" />
+      <link rel="manifest" href="/assets/img/favicon/site.webmanifest" />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
-        href="./assets/img/favicon/apple-touch-icon.png"
+        href="/assets/img/favicon/apple-touch-icon.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href="./assets/img/favicon/favicon-32x32.png"
+        href="/assets/img/favicon/favicon-32x32.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href="./assets/img/favicon/favicon-16x16.png"
+        href="/assets/img/favicon/favicon-16x16.png"
       />
       <link
         rel="mask-icon"
-        href="./assets/img/favicon/safari-pinned-tab.svg"
+        href="/assets/img/favicon/safari-pinned-tab.svg"
         color="#000000"
       />
-      <link rel="shortcut icon" href="./assets/img/favicon/favicon.ico" />
+      <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" />
     </>
   );
 }
