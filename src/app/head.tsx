@@ -8,7 +8,7 @@ export default function Head() {
       />
       <meta
         name="keyword"
-        content="muhammad fajrul amin,fajrul id,fajrulid, fajrulmyid, fajrulamin, fajrul, my, id, jvalley, indonesia, portfolio, javascript, developer ,fajrul,fajrul islam"
+        content="amin,fajrul amin,muhammad fajrul amin,fajrul id,fajrulid, fajrulmyid, fajrulamin, fajrul, my, id, jvalley, indonesia, portfolio, javascript, developer ,fajrul,fajrul islam"
       />
       <title>Muhammad Fajrul Amin — ReactJs Web Developer</title>
       <meta
