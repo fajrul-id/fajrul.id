@@ -32,7 +32,7 @@ const About = () => {
                 melanjutkan pendidikan tentang bahasa pemerograman di
                 JemblonganValley(Jvalley) Bootcamp Juni 2022
               </p>
-              <a href="/#portfolio">
+              <a href="/assets/pdf/Fajrul-Resume.pdf">
                 <div className="h-10 rounded-md my-2">
                   <div className="flex h-full w-full items-center justify-center rounded-md bg-gray-700">
                     <h1 className="pr font-semibold text-transparent bg-clip-text">
