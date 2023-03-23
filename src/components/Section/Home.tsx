@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="bg-white shadow-lg rounded-3xl p-4 sm:p-6 lg:p-8 lg:mt-20"
+      className="bg-white shadow-lg rounded-3xl p-4 sm:p-6 lg:p-8 lg:mt-14"
     >
       <Navbar />
       <Intro />
