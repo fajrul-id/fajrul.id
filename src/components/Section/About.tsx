@@ -32,9 +32,15 @@ const About = () => {
                 melanjutkan pendidikan tentang bahasa pemerograman di
                 JemblonganValley(Jvalley) Bootcamp Juni 2022
               </p>
-            </div>
-            <div className="max-w-[16rem]">
-              <Stats />
+              <a href="/#portfolio">
+                <div className="h-10 rounded-md my-2">
+                  <div className="flex h-full w-full items-center justify-center rounded-md bg-gray-700">
+                    <h1 className="pr font-semibold text-transparent bg-clip-text">
+                      Download Cv
+                    </h1>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
         </div>

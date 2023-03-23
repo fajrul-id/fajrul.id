@@ -22,12 +22,8 @@ a {
   box-sizing: border-box;
 }
 .bg {
-  background: rgb(116, 169, 245);
-  background: linear-gradient(
-    90deg,
-    rgba(116, 169, 245, 1) 0%,
-    rgba(231, 194, 249, 1) 65%
-  );
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
 }
 .pr {
   background: linear-gradient(

@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import ProfileImage from "../Svg/ProfileImage";
+import Stats from "../Stats/Stats";
 
 const Intro = () => {
   return (
@@ -11,6 +12,10 @@ const Intro = () => {
           Junior Developer
         </h1>
         <p>Memulai karir sebagai seorang programer di tahun 2022.</p>
+
+        <div className="max-w-[16rem]">
+          <Stats />
+        </div>
         <div className="flex gap-4">
           <a href="/#portfolio">
             <div className="h-10 w-28 rounded-md bg p-[2px]">

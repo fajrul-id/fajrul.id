@@ -68,7 +68,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="https://wa.me/6282390924636"
+              href="http://instagram.com/fajrul.id"
               className="text-gray-400 hover:text-gray-200  p-1 sm:p-2  inline-flex items-center"
             >
               <svg
