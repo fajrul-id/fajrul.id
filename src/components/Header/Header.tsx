@@ -8,6 +8,7 @@ const navigation = [
   { name: "Home", href: "#", current: true },
   { name: "Blog", href: "https://blog.fajrul.id", current: false },
   { name: "About", href: "#about", current: false },
+  { name: "Skill", href: "#skill", current: false },
   { name: "Portfolio", href: "#portfolio", current: false },
   { name: "Contact", href: "#contact", current: false },
 ];
