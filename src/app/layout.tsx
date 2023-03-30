@@ -1,5 +1,6 @@
 import Script from "next/script";
 import "./globals.css";
+import Pwa from "./Pwa";
 
 export const metadata = {
   title: "Create Next App",
@@ -31,6 +32,7 @@ export default function RootLayout({
           </Script>
         </div>
         {children}
+        <Pwa />
       </body>
     </html>
   );
