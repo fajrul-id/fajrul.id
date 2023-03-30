@@ -37,28 +37,40 @@ const Contact = () => {
         </div>
         <div>
           <div>
-            <span className="uppercase text-sm text-gray-600 font-bold">
+            <label
+              htmlFor="fn"
+              className="uppercase text-sm text-gray-600 font-bold"
+            >
               Full Name
-            </span>
+            </label>
             <input
+              id="fn"
               className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               type="text"
             />
           </div>
           <div className="mt-8">
-            <span className="uppercase text-sm text-gray-600 font-bold">
+            <label
+              htmlFor="email"
+              className="uppercase text-sm text-gray-600 font-bold"
+            >
               Email
-            </span>
+            </label>
             <input
+              id="email"
               className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               type="text"
             />
           </div>
           <div className="mt-8">
-            <span className="uppercase text-sm text-gray-600 font-bold">
+            <label
+              htmlFor="mess"
+              className="uppercase text-sm text-gray-600 font-bold"
+            >
               Message
-            </span>
+            </label>
             <textarea
+              id="mess"
               className="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               defaultValue={""}
             />
