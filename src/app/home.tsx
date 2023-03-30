@@ -12,7 +12,7 @@ const Homes = () => {
   useEffect(() => {
     // here you can add your aos options
     AOS.init({
-      offset: 100,
+      offset: 65,
     });
   }, []);
   return (
