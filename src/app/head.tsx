@@ -26,7 +26,7 @@ export default function Head() {
         content="Muhammad fajrul amin. ReactJs Web Developer portfolio showcasing my personal projects and blog. If you have web related problems to solve then let&#x27;s work together!"
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://metatags.io/" />
+      <meta property="og:url" content="https://fajrul.id/" />
       <meta
         property="og:title"
         content="Muhammad Fajrul Amin  — ReactJs Web Developer"
@@ -37,11 +37,11 @@ export default function Head() {
       />
       <meta
         property="og:image"
-        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+        content="/assets/img/favicon/favicon-32x32.png"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://metatags.io/" />
+      <meta property="twitter:url" content="https://fajrul.id/" />
       <meta
         property="twitter:title"
         content="Muhammad Fajrul Amin  — ReactJs Web Developer"
@@ -52,7 +52,7 @@ export default function Head() {
       />
       <meta
         property="twitter:image"
-        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+        content="/assets/img/favicon/favicon-32x32.png"
       />
       <link rel="manifest" href="/assets/img/favicon/site.webmanifest" />
       <link
