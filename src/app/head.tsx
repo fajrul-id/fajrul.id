@@ -2,6 +2,8 @@ export default function Head() {
   return (
     <>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
+      <link rel="manifest" href="/manifest.json" />
+      <meta name="theme-color" content="#565e5f" />
       <meta
         name="description"
         content="fajrul.id is a front-end web developer portfolio showcasing my personal projects and blog. If you have web related problems to solve then let&#x27;s work together!"
