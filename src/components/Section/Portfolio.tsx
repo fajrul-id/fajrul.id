@@ -63,7 +63,7 @@ const Portfolio = () => {
       id="portfolio"
       className="p-4 sm:p-6 lg:p-8 text-[#48438e] text-shadow-sm"
     >
-      <div className="translate-y-24 space-y-8">
+      <div className="mt-24 space-y-8" data-aos="fade-in" data-aos-delay="500">
         <div className="flex flex-col gap-1 items-center">
           <h1 className="text-4xl">Portfolio</h1>
           <p className="text-lg">
