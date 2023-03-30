@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="max-w-screen-xl mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-white text-gray-900 rounded-lg shadow-lg">
         <div
           data-aos="fade-left"
-          data-aos-delay="600"
+          data-aos-delay="1000"
           className="flex flex-col justify-between"
         >
           <div>
