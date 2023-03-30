@@ -14,6 +14,13 @@ const portfolio = [
     foto: "https://i.imgur.com/Hn2cxb3.jpg",
   },
   {
+    NamaProject: "Fajrul.id Website",
+    Deskripsi:
+      "Website portfolio menggunakan React Nextjs , dan sudah terindeks Google serta support PWA",
+    link: "/#",
+    foto: "/portfoliofajrul.png",
+  },
+  {
     NamaProject: "SwifTax Konsultan",
     Deskripsi: "Website landing Page menggunakan NextJs",
     link: "https://tax-landing-page.vercel.app/",
