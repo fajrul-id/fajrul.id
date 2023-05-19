@@ -76,7 +76,7 @@ const Skill = () => {
                   width="100"
                   height="100"
                   src="/assets/img/skill/react.png"
-                  className="mx-auto mb-4 w-20  md:h-24 rounded-lg"
+                  className="mx-auto mb-4 w-16 md:h-24 rounded-lg"
                   alt="react"
                 />
               </div>
