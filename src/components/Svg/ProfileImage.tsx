@@ -8,7 +8,7 @@ const ProfileImage = () => {
         <img
           src="assets/img/profile.png"
           alt="Icon"
-          className="-translate-y-9"
+          className="-translate-y-11"
         />
       </div>
     </div>
