@@ -22,11 +22,6 @@ const Homes = () => {
   const [projects, setProjects] = useState<any[]>([]);
 
   useEffect(() => {
-    // Periksa apakah user sudah login
-    if (localStorage.getItem("isAdmin") !== "true") {
-      router.push("/admin/login");
-    }
-
     // Ambil data proyek
     const fetchProjects = async () => {
       try {
