@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
 type Project = {
   id: number;
@@ -29,24 +29,18 @@ const readData = (): Project[] => {
 
 // GET: Retrieve a specific project by ID
 export async function GET(
-  request: Request,
-  { params }: { params: { id: string } }
+  request: NextRequest,
+  { params }: { params: Promise<{ id: string }> }
 ) {
-  try {
-    const data = readData();
-    const projectId = parseInt(params.id, 10); // Parse the ID to integer
+  const id = (await params).id;
+  const projectId = Number(id);
+  const projects = readData();
 
-    const project = data.find((item) => item.id === projectId);
+  const project = projects.find(({ id }) => id === projectId);
 
-    if (!project) {
-      return NextResponse.json({ error: "Project not found" }, { status: 404 });
-    }
-
-    return NextResponse.json(project);
-  } catch (error: unknown) {
-    return NextResponse.json(
-      { error: "Failed to fetch the project" },
-      { status: 500 }
-    );
+  if (!project) {
+    return NextResponse.json({ error: "Project not found" }, { status: 404 });
   }
+
+  return NextResponse.json(project);
 }
