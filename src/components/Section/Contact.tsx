@@ -76,7 +76,12 @@ const Contact = () => {
             />
           </div>
           <div className="mt-8">
-            <button className="uppercase text-sm font-bold tracking-wide bg-[#0090AD] text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
+            <button
+              className="uppercase text-sm font-bold tracking-wide bg-[#0090AD] text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline"
+              onClick={() => {
+                window.location.href = "https://wa.me/6282390924636";
+              }}
+            >
               Send Message
             </button>
           </div>

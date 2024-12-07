@@ -25,11 +25,7 @@ export function Navbar() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-50">
             <div className="flex items-center justify-between h-16">
               <div className="flex-shrink-0">
-                <img
-                  className="w-10"
-                  src="https://blog.fajrul.id/storage/general/screen-shot-2023-03-17-at-190624.png"
-                  alt="Fajrul.id"
-                />
+                <img className="w-10" src="uploads/logo.png" alt="Fajrul.id" />
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">

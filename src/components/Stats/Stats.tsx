@@ -1,11 +1,11 @@
 import React from "react";
 
-const Stats = () => {
+const Stats = ({ total }: { total: string }) => {
   return (
     <div className="flex flex-row m-auto p-2 gap-8 rounded-lg border bg-white bg-opacity-20">
       <div className="my-auto">
         <div className="text-lg text-gray-400">Total Project</div>
-        <div className="text-4xl text-gray-400">5</div>
+        <div className="text-4xl text-gray-400">{total}</div>
       </div>
       <div className="text-gray-400 my-auto bg-gray-500 bg-opacity-20 rounded-full p-4">
         <svg

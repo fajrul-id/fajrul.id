@@ -5,66 +5,33 @@ import Portfoliocard from "../Card/Portfoliocard";
 import Flickity from "react-flickity-component";
 
 import "flickity/css/flickity.css";
+type Project = {
+  id: number;
+  nama_project: string;
+  link: string;
+  deskripsi: string;
+  image: string;
+};
 
-const portfolio = [
-  {
-    NamaProject: "Koperasi Gala Indo Mandiri",
-    Deskripsi: "Website landing Page menggunakan ReactJs",
-    link: "https://koperasi-gim.com/",
-    foto: "https://i.imgur.com/Hn2cxb3.jpg",
-  },
-  {
-    NamaProject: "Fajrul.id Website",
-    Deskripsi:
-      "Website portfolio menggunakan React Nextjs , dan sudah terindeks Google serta support PWA",
-    link: "/#",
-    foto: "/portfoliofajrul.png",
-  },
-  {
-    NamaProject: "SwifTax Konsultan",
-    Deskripsi: "Website landing Page menggunakan NextJs",
-    link: "https://tax-landing-page.vercel.app/",
-    foto: "https://i.imgur.com/Db41Upo.png",
-  },
-  {
-    NamaProject: "SmartCity Muaro Jambi",
-    Deskripsi:
-      "MUji adalah platform yang mampu berinteraksi dengan masyarakat Muaro Jambi bersifat aktif; saling melakukan aksi; antar-hubungan.",
-    link: "http://103.84.192.206:3019/",
-    foto: "/portfolio11.png",
-  },
-  {
-    NamaProject: "Satu Data",
-    Deskripsi: "NextJS,KneckJs,Postgresql,Tailwind",
-    link: "http://103.84.192.206:3020/",
-    foto: "/portfolio12.png",
-  },
-  {
-    NamaProject: "Todo list",
-    Deskripsi: "ReactJS,Headlessui,Tailwind",
-    link: "http://103.84.192.206:3020/",
-    foto: "/portfolio13.png",
-  },
-];
-
-function Carousel() {
-  return (
-    <Flickity className="w-full" options={{ autoPlay: true, initialIndex: 1 }}>
-      {portfolio.map((e, i) => (
-        <div key={i} style={{ marginLeft: 5, marginRight: 5 }}>
-          <Portfoliocard
-            NamaProject={e.NamaProject}
-            Deskripsi={e.Deskripsi}
-            link={e.link}
-            foto={e.foto}
-          />
-        </div>
-      ))}
-    </Flickity>
-  );
-}
-
-const Portfolio = () => {
+const Portfolio = ({ props }: { props: Project[] }) => {
+  function Carousel() {
+    return (
+      <Flickity className="w-full" options={{ autoPlay: true }}>
+        {props.map((e, i) => {
+          return (
+            <div key={i} style={{ marginLeft: 5, marginRight: 5 }}>
+              <Portfoliocard
+                NamaProject={e.nama_project}
+                Deskripsi={e.deskripsi}
+                link={e.link}
+                foto={e.image}
+              />
+            </div>
+          );
+        })}
+      </Flickity>
+    );
+  }
   return (
     <section
       id="portfolio"

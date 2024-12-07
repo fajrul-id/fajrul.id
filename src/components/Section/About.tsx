@@ -18,19 +18,30 @@ const About = () => {
           <div className="max-w-[20rem]">
             <img src="/about.jpg" alt="about" className="rounded-lg" />
           </div>
-          <div className="max-w-sm flex flex-col gap-4 items-center md:items-start justify-around">
+          <div className="max-w-sm md:max-w-lg flex flex-col gap-4 items-center md:items-start justify-around">
             <div className="text-center md:text-left">
               <p>
                 Saya adalah anak ke-2 dari 4 bersaudara,lahir di Bengkulu,30
                 April 2000, dibesarkan di kota bernama Bengkulu. mempunyai Ayah
                 seorang Da'i, membuat saya tidak jauh dari dunia Agama.
               </p>
+              <br />
               <p>
                 Setelah lulus Sekolah Menengah Tingkat Pertama, di SMP 21 Kota
                 Bengkulu, saya melanjutkan sekolah di SMK Negeri 1 Kota
                 Bengkulu, dengan jurusan Teknik Komputer Jaringan. dan
                 melanjutkan pendidikan tentang bahasa pemerograman di
                 JemblonganValley(Jvalley) Bootcamp Juni 2022
+              </p>
+              <br />
+              <p>
+                Saat ini, saya membuka peluang untuk bergabung dengan tim yang
+                inovatif dan dinamis, baik dalam posisi Full Stack Development
+                maupun Web Application Development. Dengan latar belakang
+                sebagai pengembang aplikasi pajak untuk pemerintah daerah serta
+                pengalaman mengelola situs smart city, saya berkomitmen untuk
+                menghadirkan solusi yang efisien dan berorientasi pada kebutuhan
+                pengguna.
               </p>
               <a href="/assets/pdf/Fajrul-Resume.pdf">
                 <div className="h-10 rounded-md my-2">

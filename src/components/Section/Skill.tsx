@@ -13,7 +13,7 @@ const Skill = () => {
         data-aos-delay="600"
       >
         <div className="flex flex-col gap-1 items-center">
-          <h1 className="text-4xl">Skill</h1>
+          <h1 className="text-4xl">Skill & Tools</h1>
           <p className="text-lg">
             Berikut Beberapa Aplikasi/Bahasa Pemograman Yang Saya Pernah Gunakan
           </p>

@@ -1,1 +1,40 @@
-[]
+[
+    {
+      "nama_project": "Koperasi Gala Indo Mandiri",
+      "deskripsi": "Website landing Page menggunakan ReactJs",
+      "link": "https://koperasi-gim.com/",
+      "image": "https://i.imgur.com/Hn2cxb3.jpg"
+    },
+    {
+      "nama_project": "Fajrul.id Website",
+      "deskripsi":
+        "Website portfolio menggunakan React Nextjs , dan sudah terindeks Google serta support PWA",
+      "link": "/#",
+      "image": "/portfoliofajrul.png"
+    },
+    {
+      "nama_project": "SwifTax Konsultan",
+      "deskripsi": "Website landing Page menggunakan NextJs",
+      "link": "https://tax-landing-page.vercel.app/",
+      "image": "https://i.imgur.com/Db41Upo.png"
+    },
+    {
+      "nama_project": "SmartCity Muaro Jambi",
+      "deskripsi":
+        "MUji adalah platform yang mampu berinteraksi dengan masyarakat Muaro Jambi bersifat aktif; saling melakukan aksi; antar-hubungan.",
+      "link": "http://103.84.192.206:3019/",
+      "image": "/portfolio11.png"
+    },
+    {
+      "nama_project": "Satu Data",
+      "deskripsi": "NextJS,KneckJs,Postgresql,Tailwind",
+      "link": "http://103.84.192.206:3020/",
+      "image": "/portfolio12.png"
+    },
+    {
+      "nama_project": "Todo list",
+      "deskripsi": "ReactJS,Headlessui,Tailwind",
+      "link": "http://103.84.192.206:3020/",
+      "image": "/portfolio13.png"
+    }
+  ]
