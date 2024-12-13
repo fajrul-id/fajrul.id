@@ -1,46 +1,51 @@
 [
-    {
-      "id": 1,
-      "nama_project": "Koperasi Gala Indo Mandiri",
-      "deskripsi": "Website landing Page menggunakan ReactJs",
-      "link": "https://koperasi-gim.com/",
-      "image": "https://i.imgur.com/Hn2cxb3.jpg"
-    },
-    {
-      "id": 2,
-      "nama_project": "Fajrul.id Website",
-      "deskripsi":
-        "Website portfolio menggunakan React Nextjs , dan sudah terindeks Google serta support PWA",
-      "link": "/#",
-      "image": "/portfoliofajrul.png"
-    },
-    {
-      "id": 3,
-      "nama_project": "SwifTax Konsultan",
-      "deskripsi": "Website landing Page menggunakan NextJs",
-      "link": "https://tax-landing-page.vercel.app/",
-      "image": "https://i.imgur.com/Db41Upo.png"
-    },
-    {
-      "id": 4,
-      "nama_project": "SmartCity Muaro Jambi",
-      "deskripsi":
-        "MUji adalah platform yang mampu berinteraksi dengan masyarakat Muaro Jambi bersifat aktif; saling melakukan aksi; antar-hubungan.",
-      "link": "http://103.84.192.206:3019/",
-      "image": "/portfolio11.png"
-    },
-    {
-      "id": 5,
-      "nama_project": "Satu Data",
-      "deskripsi": "NextJS,KneckJs,Postgresql,Tailwind",
-      "link": "http://103.84.192.206:3020/",
-      "image": "/portfolio12.png"
-    },
-    {
-      "id": 6,
-      "nama_project": "Todo list",
-      "deskripsi": "ReactJS,Headlessui,Tailwind",
-      "link": "http://103.84.192.206:3020/",
-      "image": "/portfolio13.png"
-    }
-  ]
+  {
+    "id": 1,
+    "nama_project": "Sistem Informasi Bina Jasa Konstruksi Sumsel (SIBIJAK)",
+    "deskripsi": "Website SIBIJAK menyediakan informasi dan layanan terkait konstruksi di Sumatera Selatan, terintegrasi dengan SIPJAKI.",
+    "link": "http://sibijaksumsel.id/",
+    "image": "https://i.imgur.com/MqCQGb7.png"
+  },
+  {
+    "id": 2,
+    "nama_project": "SmartCity Muaro Jambi",
+    "deskripsi": "MUji adalah platform yang mampu berinteraksi dengan masyarakat Muaro Jambi bersifat aktif dan dinamis.",
+    "link": "https://muarojambikab.go.id/",
+    "image": "https://i.imgur.com/xkfY64R.png"
+  },
+  {
+    "id": 3,
+    "nama_project": "Satu Data Muaro Jambi",
+    "deskripsi": "Platform untuk pengelolaan data Muaro Jambi yang mendukung kebijakan berbasis data.",
+    "link": "https://satudata.muarojambikab.go.id/",
+    "image": "https://i.imgur.com/8zoLKGK.png"
+  },
+  {
+    "id": 4,
+    "nama_project": "Koperasi Gala Indo Mandiri",
+    "deskripsi": "Website Landing Page berbasis React.js untuk menunjukkan fitur dan layanan Koperasi Gala Indo Mandiri.",
+    "link": "https://galaindo.vercel.app",
+    "image": "https://i.imgur.com/7d1QTye.png"
+  },
+  {
+    "id": 5,
+    "nama_project": "Fajrul x Tara",
+    "deskripsi": "Platform undangan digital berbasis Next.js yang praktis dan interaktif.",
+    "link": "https://tarafajrul.vercel.app",
+    "image": "https://i.imgur.com/LH6ijCN.png"
+  },
+  {
+    "id": 6,
+    "nama_project": "Bidan Okti Susanti",
+    "deskripsi": "Landing Page klinik untuk data pasien, jadwal, dan administrasi.",
+    "link": "https://bidanoktisusanti.vercel.app",
+    "image": "https://i.imgur.com/Sz1hcVo.png"
+  },
+  {
+    "id": 7,
+    "nama_project": "Fajrul.id Website",
+    "deskripsi": "Website portfolio menggunakan React Nextjs , dan sudah terindeks Google serta support PWA",
+    "link": "https://fajrul-id.vercel.app",
+    "image": "https://i.imgur.com/BcjX9vL.png"
+  }
+]
