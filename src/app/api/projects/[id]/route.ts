@@ -11,7 +11,7 @@ type Project = {
 };
 
 // Path to the data file
-const DATA_DIR = path.resolve(process.env.ROOT_PATH ?? "", "src/data");
+const DATA_DIR = path.join(path.resolve("src", "data"));
 const dataFilePath = path.join(DATA_DIR, "data.json");
 
 const readData = (): Project[] => {
