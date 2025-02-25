@@ -78,7 +78,7 @@ export default function EditProject({
 
       const updatedProject = await response.json();
       alert("Project updated successfully!");
-      router.push("/admin/projects"); // Redirect after success
+      router.push("/admin/dashboard"); // Redirect after success
     } catch (error) {
       alert("Failed to update project");
       console.error(error);
