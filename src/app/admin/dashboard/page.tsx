@@ -130,7 +130,7 @@ export default function AdminDashboard() {
 
   const handleEditProject = (id: string) => {
     // Handle the logic for editing a project (e.g., show a modal or navigate to edit page)
-    router.push(`/admin/dashboard/edit/${id}`);
+    router.push(`/admin/dashboard/edit/id?=${id}`);
   };
 
   return (
