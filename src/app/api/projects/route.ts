@@ -11,7 +11,7 @@ type Project = {
 };
 
 // Menggunakan process.env.ROOT_PATH untuk menentukan lokasi file data.json
-const DATA_DIR = path.join(path.resolve(), '/public/data/');
+const DATA_DIR = path.resolve("data")
 const dataFilePath = path.join(DATA_DIR, "data.json");
 
 // Pastikan folder `DATA_DIR` ada
