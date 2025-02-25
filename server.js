@@ -5,6 +5,7 @@ const os = require('os');
 require('dotenv/config');
 const express = require('express');
 const next = require('next');
+const path = require('path');
 
 const dev = process.env.NODE_ENV !== 'production';
 const port = process.env.PORT || 3000;
