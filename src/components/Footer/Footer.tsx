@@ -7,7 +7,7 @@ const Footer = () => {
       <footer className="px-16 text-gray-900 bg-white  mt-12">
         <div className="w-full inline-flex mt-8 items-center justify-center mx-auto text-xl font-semibold">
           <img
-            src="https://blog.fajrul.id/storage/general/screen-shot-2023-03-17-at-190624.png"
+            src="uploads/logo.png"
             alt=""
             className="w-12 items-center mr-4"
           />
@@ -111,7 +111,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="mx-auto py-5 text-sm text-gray-400 text-center">
-            Copyright 2023 @ Fajrul.id
+            Copyright 2025 @ Fajrul.id
           </div>
         </div>
       </footer>
